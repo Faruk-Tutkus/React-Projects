@@ -1,0 +1,22 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: #eeaeca;
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,178,233,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  backdrop-filter: blur(100);
+  
+}
+
+.container {
+  width: 50%;
+  height: 50%;
+  background: linear-gradient(circle, rgba(148,178,233,1) 0%, rgba(238,174,202,1) 100%);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border-width: 1px;
+}
